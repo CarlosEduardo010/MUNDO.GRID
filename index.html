@@ -1,0 +1,2539 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises del Mundo - Grid Interactiva</title>
+    <meta name="description" content="Explora los países del mundo y sus capitales en una interfaz moderna y minimalista.">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MUNDO.GRID</div>
+        <nav>
+            <ul>
+                <li><a href="#" id="nav-home">Inicio</a></li>
+                <li><a href="#" id="nav-about">Acerca de</a></li>
+                <li><a href="#" id="nav-contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Explora el Mundo</h1>
+            <p>Haz clic en cualquier país para descubrir su capital. Una experiencia diseñada con elegancia y simplicidad.</p>
+        </section>
+
+        <section class="container">
+            <div class="grid" id="country-grid">
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-1" class="toggle-input">
+                    <label for="country-1" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Afghanistan</span>
+                            <span class="country-capital">Kabul</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-2" class="toggle-input">
+                    <label for="country-2" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Albania</span>
+                            <span class="country-capital">Tirana</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-3" class="toggle-input">
+                    <label for="country-3" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Algeria</span>
+                            <span class="country-capital">Algiers</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-4" class="toggle-input">
+                    <label for="country-4" class="country-label">
+                        <div class="content">
+                            <span class="country-name">American Samoa</span>
+                            <span class="country-capital">Pago Pago</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-5" class="toggle-input">
+                    <label for="country-5" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Andorra</span>
+                            <span class="country-capital">Andorra la Vella</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-6" class="toggle-input">
+                    <label for="country-6" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Angola</span>
+                            <span class="country-capital">Luanda</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-7" class="toggle-input">
+                    <label for="country-7" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Anguilla</span>
+                            <span class="country-capital">The Valley</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-8" class="toggle-input">
+                    <label for="country-8" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Antarctica</span>
+                            <span class="country-capital">No Capital</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-9" class="toggle-input">
+                    <label for="country-9" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Antigua and Barbuda</span>
+                            <span class="country-capital">Saint John's</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-10" class="toggle-input">
+                    <label for="country-10" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Argentina</span>
+                            <span class="country-capital">Buenos Aires</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-11" class="toggle-input">
+                    <label for="country-11" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Armenia</span>
+                            <span class="country-capital">Yerevan</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-12" class="toggle-input">
+                    <label for="country-12" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Aruba</span>
+                            <span class="country-capital">Oranjestad</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-13" class="toggle-input">
+                    <label for="country-13" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Australia</span>
+                            <span class="country-capital">Canberra</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-14" class="toggle-input">
+                    <label for="country-14" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Austria</span>
+                            <span class="country-capital">Vienna</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-15" class="toggle-input">
+                    <label for="country-15" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Azerbaijan</span>
+                            <span class="country-capital">Baku</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-16" class="toggle-input">
+                    <label for="country-16" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bahamas</span>
+                            <span class="country-capital">Nassau</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-17" class="toggle-input">
+                    <label for="country-17" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bahrain</span>
+                            <span class="country-capital">Manama</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-18" class="toggle-input">
+                    <label for="country-18" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bangladesh</span>
+                            <span class="country-capital">Dhaka</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-19" class="toggle-input">
+                    <label for="country-19" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Barbados</span>
+                            <span class="country-capital">Bridgetown</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-20" class="toggle-input">
+                    <label for="country-20" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Belarus</span>
+                            <span class="country-capital">Minsk</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-21" class="toggle-input">
+                    <label for="country-21" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Belgium</span>
+                            <span class="country-capital">Brussels</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-22" class="toggle-input">
+                    <label for="country-22" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Belize</span>
+                            <span class="country-capital">Belmopan</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-23" class="toggle-input">
+                    <label for="country-23" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Benin</span>
+                            <span class="country-capital">Porto-Novo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-24" class="toggle-input">
+                    <label for="country-24" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bermuda</span>
+                            <span class="country-capital">Hamilton</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-25" class="toggle-input">
+                    <label for="country-25" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bhutan</span>
+                            <span class="country-capital">Thimphu</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-26" class="toggle-input">
+                    <label for="country-26" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bolivia</span>
+                            <span class="country-capital">Sucre</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-27" class="toggle-input">
+                    <label for="country-27" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bosnia and Herzegovina</span>
+                            <span class="country-capital">Sarajevo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-28" class="toggle-input">
+                    <label for="country-28" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Botswana</span>
+                            <span class="country-capital">Gaborone</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-29" class="toggle-input">
+                    <label for="country-29" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bouvet Island</span>
+                            <span class="country-capital">No Capital</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-30" class="toggle-input">
+                    <label for="country-30" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Brazil</span>
+                            <span class="country-capital">Brasília</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-31" class="toggle-input">
+                    <label for="country-31" class="country-label">
+                        <div class="content">
+                            <span class="country-name">British Indian Ocean Territory</span>
+                            <span class="country-capital">Diego Garcia</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-32" class="toggle-input">
+                    <label for="country-32" class="country-label">
+                        <div class="content">
+                            <span class="country-name">British Virgin Islands</span>
+                            <span class="country-capital">Road Town</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-33" class="toggle-input">
+                    <label for="country-33" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Brunei</span>
+                            <span class="country-capital">Bandar Seri Begawan</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-34" class="toggle-input">
+                    <label for="country-34" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Bulgaria</span>
+                            <span class="country-capital">Sofia</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-35" class="toggle-input">
+                    <label for="country-35" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Burkina Faso</span>
+                            <span class="country-capital">Ouagadougou</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-36" class="toggle-input">
+                    <label for="country-36" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Burundi</span>
+                            <span class="country-capital">Gitega</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-37" class="toggle-input">
+                    <label for="country-37" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cambodia</span>
+                            <span class="country-capital">Phnom Penh</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-38" class="toggle-input">
+                    <label for="country-38" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cameroon</span>
+                            <span class="country-capital">Yaoundé</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-39" class="toggle-input">
+                    <label for="country-39" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Canada</span>
+                            <span class="country-capital">Ottawa</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-40" class="toggle-input">
+                    <label for="country-40" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cape Verde</span>
+                            <span class="country-capital">Praia</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-41" class="toggle-input">
+                    <label for="country-41" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Caribbean Netherlands</span>
+                            <span class="country-capital">Kralendijk</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-42" class="toggle-input">
+                    <label for="country-42" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cayman Islands</span>
+                            <span class="country-capital">George Town</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-43" class="toggle-input">
+                    <label for="country-43" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Central African Republic</span>
+                            <span class="country-capital">Bangui</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-44" class="toggle-input">
+                    <label for="country-44" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Chad</span>
+                            <span class="country-capital">N'Djamena</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-45" class="toggle-input">
+                    <label for="country-45" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Chile</span>
+                            <span class="country-capital">Santiago</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-46" class="toggle-input">
+                    <label for="country-46" class="country-label">
+                        <div class="content">
+                            <span class="country-name">China</span>
+                            <span class="country-capital">Beijing</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-47" class="toggle-input">
+                    <label for="country-47" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Christmas Island</span>
+                            <span class="country-capital">Flying Fish Cove</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-48" class="toggle-input">
+                    <label for="country-48" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cocos (Keeling) Islands</span>
+                            <span class="country-capital">West Island</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-49" class="toggle-input">
+                    <label for="country-49" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Colombia</span>
+                            <span class="country-capital">Bogotá</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-50" class="toggle-input">
+                    <label for="country-50" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Comoros</span>
+                            <span class="country-capital">Moroni</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-51" class="toggle-input">
+                    <label for="country-51" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cook Islands</span>
+                            <span class="country-capital">Avarua</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-52" class="toggle-input">
+                    <label for="country-52" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Costa Rica</span>
+                            <span class="country-capital">San José</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-53" class="toggle-input">
+                    <label for="country-53" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Croatia</span>
+                            <span class="country-capital">Zagreb</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-54" class="toggle-input">
+                    <label for="country-54" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cuba</span>
+                            <span class="country-capital">Havana</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-55" class="toggle-input">
+                    <label for="country-55" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Curaçao</span>
+                            <span class="country-capital">Willemstad</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-56" class="toggle-input">
+                    <label for="country-56" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Cyprus</span>
+                            <span class="country-capital">Nicosia</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-57" class="toggle-input">
+                    <label for="country-57" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Czechia</span>
+                            <span class="country-capital">Prague</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-58" class="toggle-input">
+                    <label for="country-58" class="country-label">
+                        <div class="content">
+                            <span class="country-name">DR Congo</span>
+                            <span class="country-capital">Kinshasa</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-59" class="toggle-input">
+                    <label for="country-59" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Denmark</span>
+                            <span class="country-capital">Copenhagen</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-60" class="toggle-input">
+                    <label for="country-60" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Djibouti</span>
+                            <span class="country-capital">Djibouti</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-61" class="toggle-input">
+                    <label for="country-61" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Dominica</span>
+                            <span class="country-capital">Roseau</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-62" class="toggle-input">
+                    <label for="country-62" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Dominican Republic</span>
+                            <span class="country-capital">Santo Domingo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-63" class="toggle-input">
+                    <label for="country-63" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Ecuador</span>
+                            <span class="country-capital">Quito</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-64" class="toggle-input">
+                    <label for="country-64" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Egypt</span>
+                            <span class="country-capital">Cairo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-65" class="toggle-input">
+                    <label for="country-65" class="country-label">
+                        <div class="content">
+                            <span class="country-name">El Salvador</span>
+                            <span class="country-capital">San Salvador</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-66" class="toggle-input">
+                    <label for="country-66" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Equatorial Guinea</span>
+                            <span class="country-capital">Ciudad de la Paz</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-67" class="toggle-input">
+                    <label for="country-67" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Eritrea</span>
+                            <span class="country-capital">Asmara</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-68" class="toggle-input">
+                    <label for="country-68" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Estonia</span>
+                            <span class="country-capital">Tallinn</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-69" class="toggle-input">
+                    <label for="country-69" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Eswatini</span>
+                            <span class="country-capital">Mbabane</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-70" class="toggle-input">
+                    <label for="country-70" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Ethiopia</span>
+                            <span class="country-capital">Addis Ababa</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-71" class="toggle-input">
+                    <label for="country-71" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Falkland Islands</span>
+                            <span class="country-capital">Stanley</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-72" class="toggle-input">
+                    <label for="country-72" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Faroe Islands</span>
+                            <span class="country-capital">Tórshavn</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-73" class="toggle-input">
+                    <label for="country-73" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Fiji</span>
+                            <span class="country-capital">Suva</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-74" class="toggle-input">
+                    <label for="country-74" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Finland</span>
+                            <span class="country-capital">Helsinki</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-75" class="toggle-input">
+                    <label for="country-75" class="country-label">
+                        <div class="content">
+                            <span class="country-name">France</span>
+                            <span class="country-capital">Paris</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-76" class="toggle-input">
+                    <label for="country-76" class="country-label">
+                        <div class="content">
+                            <span class="country-name">French Guiana</span>
+                            <span class="country-capital">Cayenne</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-77" class="toggle-input">
+                    <label for="country-77" class="country-label">
+                        <div class="content">
+                            <span class="country-name">French Polynesia</span>
+                            <span class="country-capital">Papeetē</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-78" class="toggle-input">
+                    <label for="country-78" class="country-label">
+                        <div class="content">
+                            <span class="country-name">French Southern and Antarctic Lands</span>
+                            <span class="country-capital">Port-aux-Français</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-79" class="toggle-input">
+                    <label for="country-79" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Gabon</span>
+                            <span class="country-capital">Libreville</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-80" class="toggle-input">
+                    <label for="country-80" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Gambia</span>
+                            <span class="country-capital">Banjul</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-81" class="toggle-input">
+                    <label for="country-81" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Georgia</span>
+                            <span class="country-capital">Tbilisi</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-82" class="toggle-input">
+                    <label for="country-82" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Germany</span>
+                            <span class="country-capital">Berlin</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-83" class="toggle-input">
+                    <label for="country-83" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Ghana</span>
+                            <span class="country-capital">Accra</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-84" class="toggle-input">
+                    <label for="country-84" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Gibraltar</span>
+                            <span class="country-capital">Gibraltar</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-85" class="toggle-input">
+                    <label for="country-85" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Greece</span>
+                            <span class="country-capital">Athens</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-86" class="toggle-input">
+                    <label for="country-86" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Greenland</span>
+                            <span class="country-capital">Nuuk</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-87" class="toggle-input">
+                    <label for="country-87" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Grenada</span>
+                            <span class="country-capital">St. George's</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-88" class="toggle-input">
+                    <label for="country-88" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Guadeloupe</span>
+                            <span class="country-capital">Basse-Terre</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-89" class="toggle-input">
+                    <label for="country-89" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Guam</span>
+                            <span class="country-capital">Hagåtña</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-90" class="toggle-input">
+                    <label for="country-90" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Guatemala</span>
+                            <span class="country-capital">Guatemala City</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-91" class="toggle-input">
+                    <label for="country-91" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Guernsey</span>
+                            <span class="country-capital">St. Peter Port</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-92" class="toggle-input">
+                    <label for="country-92" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Guinea</span>
+                            <span class="country-capital">Conakry</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-93" class="toggle-input">
+                    <label for="country-93" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Guinea-Bissau</span>
+                            <span class="country-capital">Bissau</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-94" class="toggle-input">
+                    <label for="country-94" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Guyana</span>
+                            <span class="country-capital">Georgetown</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-95" class="toggle-input">
+                    <label for="country-95" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Haiti</span>
+                            <span class="country-capital">Port-au-Prince</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-96" class="toggle-input">
+                    <label for="country-96" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Heard Island and McDonald Islands</span>
+                            <span class="country-capital">No Capital</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-97" class="toggle-input">
+                    <label for="country-97" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Honduras</span>
+                            <span class="country-capital">Tegucigalpa</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-98" class="toggle-input">
+                    <label for="country-98" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Hong Kong</span>
+                            <span class="country-capital">City of Victoria</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-99" class="toggle-input">
+                    <label for="country-99" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Hungary</span>
+                            <span class="country-capital">Budapest</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-100" class="toggle-input">
+                    <label for="country-100" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Iceland</span>
+                            <span class="country-capital">Reykjavik</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-101" class="toggle-input">
+                    <label for="country-101" class="country-label">
+                        <div class="content">
+                            <span class="country-name">India</span>
+                            <span class="country-capital">New Delhi</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-102" class="toggle-input">
+                    <label for="country-102" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Indonesia</span>
+                            <span class="country-capital">Jakarta</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-103" class="toggle-input">
+                    <label for="country-103" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Iran</span>
+                            <span class="country-capital">Tehran</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-104" class="toggle-input">
+                    <label for="country-104" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Iraq</span>
+                            <span class="country-capital">Baghdad</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-105" class="toggle-input">
+                    <label for="country-105" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Ireland</span>
+                            <span class="country-capital">Dublin</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-106" class="toggle-input">
+                    <label for="country-106" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Isle of Man</span>
+                            <span class="country-capital">Douglas</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-107" class="toggle-input">
+                    <label for="country-107" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Israel</span>
+                            <span class="country-capital">Jerusalem</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-108" class="toggle-input">
+                    <label for="country-108" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Italy</span>
+                            <span class="country-capital">Rome</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-109" class="toggle-input">
+                    <label for="country-109" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Ivory Coast</span>
+                            <span class="country-capital">Yamoussoukro</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-110" class="toggle-input">
+                    <label for="country-110" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Jamaica</span>
+                            <span class="country-capital">Kingston</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-111" class="toggle-input">
+                    <label for="country-111" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Japan</span>
+                            <span class="country-capital">Tokyo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-112" class="toggle-input">
+                    <label for="country-112" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Jersey</span>
+                            <span class="country-capital">Saint Helier</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-113" class="toggle-input">
+                    <label for="country-113" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Jordan</span>
+                            <span class="country-capital">Amman</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-114" class="toggle-input">
+                    <label for="country-114" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Kazakhstan</span>
+                            <span class="country-capital">Astana</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-115" class="toggle-input">
+                    <label for="country-115" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Kenya</span>
+                            <span class="country-capital">Nairobi</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-116" class="toggle-input">
+                    <label for="country-116" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Kiribati</span>
+                            <span class="country-capital">South Tarawa</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-117" class="toggle-input">
+                    <label for="country-117" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Kosovo</span>
+                            <span class="country-capital">Pristina</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-118" class="toggle-input">
+                    <label for="country-118" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Kuwait</span>
+                            <span class="country-capital">Kuwait City</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-119" class="toggle-input">
+                    <label for="country-119" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Kyrgyzstan</span>
+                            <span class="country-capital">Bishkek</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-120" class="toggle-input">
+                    <label for="country-120" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Laos</span>
+                            <span class="country-capital">Vientiane</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-121" class="toggle-input">
+                    <label for="country-121" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Latvia</span>
+                            <span class="country-capital">Riga</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-122" class="toggle-input">
+                    <label for="country-122" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Lebanon</span>
+                            <span class="country-capital">Beirut</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-123" class="toggle-input">
+                    <label for="country-123" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Lesotho</span>
+                            <span class="country-capital">Maseru</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-124" class="toggle-input">
+                    <label for="country-124" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Liberia</span>
+                            <span class="country-capital">Monrovia</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-125" class="toggle-input">
+                    <label for="country-125" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Libya</span>
+                            <span class="country-capital">Tripoli</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-126" class="toggle-input">
+                    <label for="country-126" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Liechtenstein</span>
+                            <span class="country-capital">Vaduz</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-127" class="toggle-input">
+                    <label for="country-127" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Lithuania</span>
+                            <span class="country-capital">Vilnius</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-128" class="toggle-input">
+                    <label for="country-128" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Luxembourg</span>
+                            <span class="country-capital">Luxembourg</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-129" class="toggle-input">
+                    <label for="country-129" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Macau</span>
+                            <span class="country-capital">No Capital</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-130" class="toggle-input">
+                    <label for="country-130" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Madagascar</span>
+                            <span class="country-capital">Antananarivo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-131" class="toggle-input">
+                    <label for="country-131" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Malawi</span>
+                            <span class="country-capital">Lilongwe</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-132" class="toggle-input">
+                    <label for="country-132" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Malaysia</span>
+                            <span class="country-capital">Kuala Lumpur</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-133" class="toggle-input">
+                    <label for="country-133" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Maldives</span>
+                            <span class="country-capital">Malé</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-134" class="toggle-input">
+                    <label for="country-134" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Mali</span>
+                            <span class="country-capital">Bamako</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-135" class="toggle-input">
+                    <label for="country-135" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Malta</span>
+                            <span class="country-capital">Valletta</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-136" class="toggle-input">
+                    <label for="country-136" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Marshall Islands</span>
+                            <span class="country-capital">Majuro</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-137" class="toggle-input">
+                    <label for="country-137" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Martinique</span>
+                            <span class="country-capital">Fort-de-France</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-138" class="toggle-input">
+                    <label for="country-138" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Mauritania</span>
+                            <span class="country-capital">Nouakchott</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-139" class="toggle-input">
+                    <label for="country-139" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Mauritius</span>
+                            <span class="country-capital">Port Louis</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-140" class="toggle-input">
+                    <label for="country-140" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Mayotte</span>
+                            <span class="country-capital">Mamoudzou</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-141" class="toggle-input">
+                    <label for="country-141" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Mexico</span>
+                            <span class="country-capital">Mexico City</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-142" class="toggle-input">
+                    <label for="country-142" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Micronesia</span>
+                            <span class="country-capital">Palikir</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-143" class="toggle-input">
+                    <label for="country-143" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Moldova</span>
+                            <span class="country-capital">Chișinău</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-144" class="toggle-input">
+                    <label for="country-144" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Monaco</span>
+                            <span class="country-capital">Monaco</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-145" class="toggle-input">
+                    <label for="country-145" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Mongolia</span>
+                            <span class="country-capital">Ulan Bator</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-146" class="toggle-input">
+                    <label for="country-146" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Montenegro</span>
+                            <span class="country-capital">Podgorica</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-147" class="toggle-input">
+                    <label for="country-147" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Montserrat</span>
+                            <span class="country-capital">Plymouth</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-148" class="toggle-input">
+                    <label for="country-148" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Morocco</span>
+                            <span class="country-capital">Rabat</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-149" class="toggle-input">
+                    <label for="country-149" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Mozambique</span>
+                            <span class="country-capital">Maputo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-150" class="toggle-input">
+                    <label for="country-150" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Myanmar</span>
+                            <span class="country-capital">Naypyidaw</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-151" class="toggle-input">
+                    <label for="country-151" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Namibia</span>
+                            <span class="country-capital">Windhoek</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-152" class="toggle-input">
+                    <label for="country-152" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Nauru</span>
+                            <span class="country-capital">Yaren</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-153" class="toggle-input">
+                    <label for="country-153" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Nepal</span>
+                            <span class="country-capital">Kathmandu</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-154" class="toggle-input">
+                    <label for="country-154" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Netherlands</span>
+                            <span class="country-capital">Amsterdam</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-155" class="toggle-input">
+                    <label for="country-155" class="country-label">
+                        <div class="content">
+                            <span class="country-name">New Caledonia</span>
+                            <span class="country-capital">Nouméa</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-156" class="toggle-input">
+                    <label for="country-156" class="country-label">
+                        <div class="content">
+                            <span class="country-name">New Zealand</span>
+                            <span class="country-capital">Wellington</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-157" class="toggle-input">
+                    <label for="country-157" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Nicaragua</span>
+                            <span class="country-capital">Managua</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-158" class="toggle-input">
+                    <label for="country-158" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Niger</span>
+                            <span class="country-capital">Niamey</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-159" class="toggle-input">
+                    <label for="country-159" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Nigeria</span>
+                            <span class="country-capital">Abuja</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-160" class="toggle-input">
+                    <label for="country-160" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Niue</span>
+                            <span class="country-capital">Alofi</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-161" class="toggle-input">
+                    <label for="country-161" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Norfolk Island</span>
+                            <span class="country-capital">Kingston</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-162" class="toggle-input">
+                    <label for="country-162" class="country-label">
+                        <div class="content">
+                            <span class="country-name">North Korea</span>
+                            <span class="country-capital">Pyongyang</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-163" class="toggle-input">
+                    <label for="country-163" class="country-label">
+                        <div class="content">
+                            <span class="country-name">North Macedonia</span>
+                            <span class="country-capital">Skopje</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-164" class="toggle-input">
+                    <label for="country-164" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Northern Mariana Islands</span>
+                            <span class="country-capital">Saipan</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-165" class="toggle-input">
+                    <label for="country-165" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Norway</span>
+                            <span class="country-capital">Oslo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-166" class="toggle-input">
+                    <label for="country-166" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Oman</span>
+                            <span class="country-capital">Muscat</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-167" class="toggle-input">
+                    <label for="country-167" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Pakistan</span>
+                            <span class="country-capital">Islamabad</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-168" class="toggle-input">
+                    <label for="country-168" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Palau</span>
+                            <span class="country-capital">Ngerulmud</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-169" class="toggle-input">
+                    <label for="country-169" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Palestine</span>
+                            <span class="country-capital">Ramallah</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-170" class="toggle-input">
+                    <label for="country-170" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Panama</span>
+                            <span class="country-capital">Panama City</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-171" class="toggle-input">
+                    <label for="country-171" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Papua New Guinea</span>
+                            <span class="country-capital">Port Moresby</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-172" class="toggle-input">
+                    <label for="country-172" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Paraguay</span>
+                            <span class="country-capital">Asunción</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-173" class="toggle-input">
+                    <label for="country-173" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Peru</span>
+                            <span class="country-capital">Lima</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-174" class="toggle-input">
+                    <label for="country-174" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Philippines</span>
+                            <span class="country-capital">Manila</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-175" class="toggle-input">
+                    <label for="country-175" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Pitcairn Islands</span>
+                            <span class="country-capital">Adamstown</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-176" class="toggle-input">
+                    <label for="country-176" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Poland</span>
+                            <span class="country-capital">Warsaw</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-177" class="toggle-input">
+                    <label for="country-177" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Portugal</span>
+                            <span class="country-capital">Lisbon</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-178" class="toggle-input">
+                    <label for="country-178" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Puerto Rico</span>
+                            <span class="country-capital">San Juan</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-179" class="toggle-input">
+                    <label for="country-179" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Qatar</span>
+                            <span class="country-capital">Doha</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-180" class="toggle-input">
+                    <label for="country-180" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Republic of the Congo</span>
+                            <span class="country-capital">Brazzaville</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-181" class="toggle-input">
+                    <label for="country-181" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Romania</span>
+                            <span class="country-capital">Bucharest</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-182" class="toggle-input">
+                    <label for="country-182" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Russia</span>
+                            <span class="country-capital">Moscow</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-183" class="toggle-input">
+                    <label for="country-183" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Rwanda</span>
+                            <span class="country-capital">Kigali</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-184" class="toggle-input">
+                    <label for="country-184" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Réunion</span>
+                            <span class="country-capital">Saint-Denis</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-185" class="toggle-input">
+                    <label for="country-185" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saint Barthélemy</span>
+                            <span class="country-capital">Gustavia</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-186" class="toggle-input">
+                    <label for="country-186" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saint Helena, Ascension and Tristan da Cunha</span>
+                            <span class="country-capital">Jamestown</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-187" class="toggle-input">
+                    <label for="country-187" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saint Kitts and Nevis</span>
+                            <span class="country-capital">Basseterre</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-188" class="toggle-input">
+                    <label for="country-188" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saint Lucia</span>
+                            <span class="country-capital">Castries</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-189" class="toggle-input">
+                    <label for="country-189" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saint Martin</span>
+                            <span class="country-capital">Marigot</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-190" class="toggle-input">
+                    <label for="country-190" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saint Pierre and Miquelon</span>
+                            <span class="country-capital">Saint-Pierre</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-191" class="toggle-input">
+                    <label for="country-191" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saint Vincent and the Grenadines</span>
+                            <span class="country-capital">Kingstown</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-192" class="toggle-input">
+                    <label for="country-192" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Samoa</span>
+                            <span class="country-capital">Apia</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-193" class="toggle-input">
+                    <label for="country-193" class="country-label">
+                        <div class="content">
+                            <span class="country-name">San Marino</span>
+                            <span class="country-capital">City of San Marino</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-194" class="toggle-input">
+                    <label for="country-194" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Saudi Arabia</span>
+                            <span class="country-capital">Riyadh</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-195" class="toggle-input">
+                    <label for="country-195" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Senegal</span>
+                            <span class="country-capital">Dakar</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-196" class="toggle-input">
+                    <label for="country-196" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Serbia</span>
+                            <span class="country-capital">Belgrade</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-197" class="toggle-input">
+                    <label for="country-197" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Seychelles</span>
+                            <span class="country-capital">Victoria</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-198" class="toggle-input">
+                    <label for="country-198" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Sierra Leone</span>
+                            <span class="country-capital">Freetown</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-199" class="toggle-input">
+                    <label for="country-199" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Singapore</span>
+                            <span class="country-capital">Singapore</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-200" class="toggle-input">
+                    <label for="country-200" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Sint Maarten</span>
+                            <span class="country-capital">Philipsburg</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-201" class="toggle-input">
+                    <label for="country-201" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Slovakia</span>
+                            <span class="country-capital">Bratislava</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-202" class="toggle-input">
+                    <label for="country-202" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Slovenia</span>
+                            <span class="country-capital">Ljubljana</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-203" class="toggle-input">
+                    <label for="country-203" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Solomon Islands</span>
+                            <span class="country-capital">Honiara</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-204" class="toggle-input">
+                    <label for="country-204" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Somalia</span>
+                            <span class="country-capital">Mogadishu</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-205" class="toggle-input">
+                    <label for="country-205" class="country-label">
+                        <div class="content">
+                            <span class="country-name">South Africa</span>
+                            <span class="country-capital">Pretoria</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-206" class="toggle-input">
+                    <label for="country-206" class="country-label">
+                        <div class="content">
+                            <span class="country-name">South Georgia</span>
+                            <span class="country-capital">King Edward Point</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-207" class="toggle-input">
+                    <label for="country-207" class="country-label">
+                        <div class="content">
+                            <span class="country-name">South Korea</span>
+                            <span class="country-capital">Seoul</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-208" class="toggle-input">
+                    <label for="country-208" class="country-label">
+                        <div class="content">
+                            <span class="country-name">South Sudan</span>
+                            <span class="country-capital">Juba</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-209" class="toggle-input">
+                    <label for="country-209" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Spain</span>
+                            <span class="country-capital">Madrid</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-210" class="toggle-input">
+                    <label for="country-210" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Sri Lanka</span>
+                            <span class="country-capital">Sri Jayawardenepura Kotte</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-211" class="toggle-input">
+                    <label for="country-211" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Sudan</span>
+                            <span class="country-capital">Khartoum</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-212" class="toggle-input">
+                    <label for="country-212" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Suriname</span>
+                            <span class="country-capital">Paramaribo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-213" class="toggle-input">
+                    <label for="country-213" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Svalbard and Jan Mayen</span>
+                            <span class="country-capital">Longyearbyen</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-214" class="toggle-input">
+                    <label for="country-214" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Sweden</span>
+                            <span class="country-capital">Stockholm</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-215" class="toggle-input">
+                    <label for="country-215" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Switzerland</span>
+                            <span class="country-capital">Bern</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-216" class="toggle-input">
+                    <label for="country-216" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Syria</span>
+                            <span class="country-capital">Damascus</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-217" class="toggle-input">
+                    <label for="country-217" class="country-label">
+                        <div class="content">
+                            <span class="country-name">São Tomé and Príncipe</span>
+                            <span class="country-capital">São Tomé</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-218" class="toggle-input">
+                    <label for="country-218" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Taiwan</span>
+                            <span class="country-capital">Taipei</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-219" class="toggle-input">
+                    <label for="country-219" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Tajikistan</span>
+                            <span class="country-capital">Dushanbe</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-220" class="toggle-input">
+                    <label for="country-220" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Tanzania</span>
+                            <span class="country-capital">Dodoma</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-221" class="toggle-input">
+                    <label for="country-221" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Thailand</span>
+                            <span class="country-capital">Bangkok</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-222" class="toggle-input">
+                    <label for="country-222" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Timor-Leste</span>
+                            <span class="country-capital">Dili</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-223" class="toggle-input">
+                    <label for="country-223" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Togo</span>
+                            <span class="country-capital">Lomé</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-224" class="toggle-input">
+                    <label for="country-224" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Tokelau</span>
+                            <span class="country-capital">Fakaofo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-225" class="toggle-input">
+                    <label for="country-225" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Tonga</span>
+                            <span class="country-capital">Nuku'alofa</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-226" class="toggle-input">
+                    <label for="country-226" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Trinidad and Tobago</span>
+                            <span class="country-capital">Port of Spain</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-227" class="toggle-input">
+                    <label for="country-227" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Tunisia</span>
+                            <span class="country-capital">Tunis</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-228" class="toggle-input">
+                    <label for="country-228" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Turkey</span>
+                            <span class="country-capital">Ankara</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-229" class="toggle-input">
+                    <label for="country-229" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Turkmenistan</span>
+                            <span class="country-capital">Ashgabat</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-230" class="toggle-input">
+                    <label for="country-230" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Turks and Caicos Islands</span>
+                            <span class="country-capital">Cockburn Town</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-231" class="toggle-input">
+                    <label for="country-231" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Tuvalu</span>
+                            <span class="country-capital">Funafuti</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-232" class="toggle-input">
+                    <label for="country-232" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Uganda</span>
+                            <span class="country-capital">Kampala</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-233" class="toggle-input">
+                    <label for="country-233" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Ukraine</span>
+                            <span class="country-capital">Kyiv</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-234" class="toggle-input">
+                    <label for="country-234" class="country-label">
+                        <div class="content">
+                            <span class="country-name">United Arab Emirates</span>
+                            <span class="country-capital">Abu Dhabi</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-235" class="toggle-input">
+                    <label for="country-235" class="country-label">
+                        <div class="content">
+                            <span class="country-name">United Kingdom</span>
+                            <span class="country-capital">London</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-236" class="toggle-input">
+                    <label for="country-236" class="country-label">
+                        <div class="content">
+                            <span class="country-name">United States</span>
+                            <span class="country-capital">Washington, D.C.</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-237" class="toggle-input">
+                    <label for="country-237" class="country-label">
+                        <div class="content">
+                            <span class="country-name">United States Minor Outlying Islands</span>
+                            <span class="country-capital">Washington DC</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-238" class="toggle-input">
+                    <label for="country-238" class="country-label">
+                        <div class="content">
+                            <span class="country-name">United States Virgin Islands</span>
+                            <span class="country-capital">Charlotte Amalie</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-239" class="toggle-input">
+                    <label for="country-239" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Uruguay</span>
+                            <span class="country-capital">Montevideo</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-240" class="toggle-input">
+                    <label for="country-240" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Uzbekistan</span>
+                            <span class="country-capital">Tashkent</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-241" class="toggle-input">
+                    <label for="country-241" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Vanuatu</span>
+                            <span class="country-capital">Port Vila</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-242" class="toggle-input">
+                    <label for="country-242" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Vatican City</span>
+                            <span class="country-capital">Vatican City</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-243" class="toggle-input">
+                    <label for="country-243" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Venezuela</span>
+                            <span class="country-capital">Caracas</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-244" class="toggle-input">
+                    <label for="country-244" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Vietnam</span>
+                            <span class="country-capital">Hanoi</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-245" class="toggle-input">
+                    <label for="country-245" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Wallis and Futuna</span>
+                            <span class="country-capital">Mata-Utu</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-246" class="toggle-input">
+                    <label for="country-246" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Western Sahara</span>
+                            <span class="country-capital">El Aaiún</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-247" class="toggle-input">
+                    <label for="country-247" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Yemen</span>
+                            <span class="country-capital">Sana'a</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-248" class="toggle-input">
+                    <label for="country-248" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Zambia</span>
+                            <span class="country-capital">Lusaka</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-249" class="toggle-input">
+                    <label for="country-249" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Zimbabwe</span>
+                            <span class="country-capital">Harare</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="country-card">
+                    <input type="checkbox" id="country-250" class="toggle-input">
+                    <label for="country-250" class="country-label">
+                        <div class="content">
+                            <span class="country-name">Åland Islands</span>
+                            <span class="country-capital">Mariehamn</span>
+                        </div>
+                    </label>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mundo Grid. Inspirado en el diseño de Iván AlsiGo. Todos los derechos reservados.</p>
+    </main>
+</body>
+</html>

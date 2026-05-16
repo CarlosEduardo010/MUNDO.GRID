@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises del Mundo - Grid Interactiva</title>
+    <meta name="description" content="Explora los países del mundo y sus capitales en una interfaz moderna y minimalista.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') if url_for else 'static/css/style.css' }}">
+</head>
+<body>
+    <header>
+        <div class="logo">MUNDO.GRID</div>
+        <nav>
+            <ul>
+                <li><a href="#" id="nav-home">Inicio</a></li>
+                <li><a href="#" id="nav-about">Acerca de</a></li>
+                <li><a href="#" id="nav-contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Explora el Mundo</h1>
+            <p>Haz clic en cualquier país para descubrir su capital. Una experiencia diseñada con elegancia y simplicidad.</p>
+        </section>
+
+        <section class="container">
+            <div class="grid" id="country-grid">
+                {% for country in countries %}
+                <div class="country-card">
+                    <input type="checkbox" id="country-{{ loop.index }}" class="toggle-input">
+                    <label for="country-{{ loop.index }}" class="country-label">
+                        <div class="content">
+                            <span class="country-name">{{ country.name }}</span>
+                            <span class="country-capital">{{ country.capital }}</span>
+                        </div>
+                    </label>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mundo Grid. Inspirado en el diseño de Iván AlsiGo. Todos los derechos reservados.</p>
+    </main>
+</body>
+</html>
